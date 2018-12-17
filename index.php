@@ -90,6 +90,35 @@
     </div>
 </div>
 
+<div class="full-width about-us">
+    <div class="letter">
+        A
+    </div>
+    <div class="letter-description">
+        Who we are
+    </div>
+    <div class="about-us--container">
+        <div class="about-us--block">
+            <div class="about-us--image">
+            </div>
+            <div class="about-us--content">
+                <div class="title">
+                    About us
+                </div>
+                <div class="description">
+                    Charger Customs - luxury automotive restyling center based in Corona, California. There is no limit
+                    to what we can do.
+                </div>
+                <div>
+                    <a href="#" class="button">
+                        more
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 </body>
 </html>
