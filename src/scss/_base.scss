@@ -27,6 +27,11 @@ html, body {
   text-transform: uppercase;
   top: 0;
   right: 80px;
+  &__left {
+    top: -210px;
+    left: 80px;
+    right: auto;
+  }
 }
 
 .letter-description {
@@ -47,6 +52,11 @@ html, body {
     width: 70px;
     right: -85px;
     top: 50%;
+  }
+  &__left {
+    left: 106px;
+    right: auto;
+    bottom: 80px;
   }
 }
 

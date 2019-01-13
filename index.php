@@ -119,6 +119,75 @@
     </div>
 </div>
 
+<div class="services full-width">
+    <div class="letter letter__left">
+        S
+    </div>
+    <div class="letter-description letter-description__left">
+        Cars & Details
+    </div>
+    <div class="services--container">
+        <div class="services--header">
+            <div class="services--title">
+                Services
+            </div>
+            <div class="services--subtitle">
+                Learn more
+            </div>
+        </div>
+        <div class="services--img-block">
+            <div class="services--img-item services--img-item__one">
+                <div class="services--img-name">
+                    Tuning
+                </div>
+                <div class="services--img-info">
+                    <div class="services--img-title">
+                        Tuning
+                    </div>
+                    <div class="services--img-description">
+                        Modification of the performance or appearance of a vehicle.
+                    </div>
+                    <div class="services--img-read">
+                        Read more
+                    </div>
+                </div>
+            </div>
+            <div class="services--img-item services--img-item__two">
+                <div class="services--img-name">
+                    Restoration
+                </div>
+                <div class="services--img-info">
+                    <div class="services--img-title">
+                        Restoration
+                    </div>
+                    <div class="services--img-description">
+                        Modification of the performance or appearance of a vehicle.
+                    </div>
+                    <div class="services--img-read">
+                        Read more
+                    </div>
+                </div>
+            </div>
+            <div class="services--img-item services--img-item__three">
+                <div class="services--img-name">
+                    Repairs
+                </div>
+                <div class="services--img-info">
+                    <div class="services--img-title">
+                        Repairs
+                    </div>
+                    <div class="services--img-description">
+                        Modification of the performance or appearance of a vehicle.
+                    </div>
+                    <div class="services--img-read">
+                        Read more
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 </body>
 </html>
