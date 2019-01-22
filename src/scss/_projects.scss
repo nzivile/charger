@@ -40,16 +40,31 @@
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 50px;
+    overflow: hidden;
+    height: 414px;
+    &__first {
+      .swiper-wrapper {
+        align-items: flex-end;
+      }
+    }
+    &__last {
+      .swiper-wrapper {
+        align-items: flex-start;
+      }
+    }
   }
   &--img {
-    width: 430px;
+    width: 430px !important;
     height: 280px;
     background-color: #000000;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    flex-shrink: 0;
-    margin: 0 20px;
+    transition: $transition;
+    &__active {
+      width: 559px !important;
+      height: 364px;
+    }
     &__one {
       background-image: url("../img/services-img1.png");
       background-position: left center;
@@ -69,5 +84,24 @@
     justify-content: center;
     padding-top: 80px;
     padding-bottom: 110px;
+  }
+
+  .swiper-container {
+    width: 100%;
+  }
+
+  .swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
   }
 }

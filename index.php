@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/swiper/swiper.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css"/>
 </head>
 <body>
 
@@ -198,24 +199,20 @@
     <div class="projects--title">
         Projects
     </div>
-    <div class="projects--img-block">
-        <div class="projects--img projects--img__one">
-        </div>
-        <div class="projects--img projects--img__two">
-        </div>
-        <div class="projects--img projects--img__three">
-        </div>
-        <div class="projects--img projects--img__four">
+    <div class="projects--img-block projects--img-block__first swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide projects--img projects--img__one"></div>
+            <div class="swiper-slide projects--img projects--img__two"></div>
+            <div class="swiper-slide projects--img projects--img__three"></div>
+            <div class="swiper-slide projects--img projects--img__four"></div>
         </div>
     </div>
-    <div class="projects--img-block">
-        <div class="projects--img projects--img__one">
-        </div>
-        <div class="projects--img projects--img__two">
-        </div>
-        <div class="projects--img projects--img__three">
-        </div>
-        <div class="projects--img projects--img__four">
+    <div class="projects--img-block projects--img-block__last swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide projects--img projects--img__one"></div>
+            <div class="swiper-slide projects--img projects--img__two"></div>
+            <div class="swiper-slide projects--img projects--img__three"></div>
+            <div class="swiper-slide projects--img projects--img__four"></div>
         </div>
     </div>
     <div class="projects--button">
@@ -225,6 +222,34 @@
     </div>
 </div>
 
+<div class="testimonials full-width">
+    <div class="testimonials--container">
+    </div>
+</div>
+
+<script src="assets/vendors/jquery/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="assets/vendors/swiper/swiper.min.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function () {
+        var swiper = new Swiper('.projects .projects--img-block__first', {
+            slidesPerView: 4,
+            spaceBetween: 40,
+            centeredSlides: true,
+            slidesOffsetBefore: 100,
+            loop: true,
+            slideActiveClass: 'projects--img__active'
+        });
+        var swiper2 = new Swiper('.projects .projects--img-block__last', {
+            slidesPerView: 4,
+            spaceBetween: 40,
+            centeredSlides: true,
+            slidesOffsetBefore: -300,
+            loop: true,
+            slideActiveClass: 'projects--img__active'
+        });
+    });
+</script>
 
 </body>
 </html>
+
