@@ -188,6 +188,43 @@
     </div>
 </div>
 
+<div class="projects full-width">
+    <div class="letter projects--letter">
+        P
+    </div>
+    <div class="letter-description projects--description">
+        Our portfolio
+    </div>
+    <div class="projects--title">
+        Projects
+    </div>
+    <div class="projects--img-block">
+        <div class="projects--img projects--img__one">
+        </div>
+        <div class="projects--img projects--img__two">
+        </div>
+        <div class="projects--img projects--img__three">
+        </div>
+        <div class="projects--img projects--img__four">
+        </div>
+    </div>
+    <div class="projects--img-block">
+        <div class="projects--img projects--img__one">
+        </div>
+        <div class="projects--img projects--img__two">
+        </div>
+        <div class="projects--img projects--img__three">
+        </div>
+        <div class="projects--img projects--img__four">
+        </div>
+    </div>
+    <div class="projects--button">
+        <a href="#" class="button">
+            more
+        </a>
+    </div>
+</div>
+
 
 </body>
 </html>
