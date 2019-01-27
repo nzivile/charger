@@ -223,7 +223,35 @@
 </div>
 
 <div class="testimonials full-width">
+    <div class="letter letter__left">
+        T
+    </div>
+    <div class="letter-description letter-description__left">
+        Happy Clients
+    </div>
     <div class="testimonials--container">
+        <div class="testimonials--block">
+            <div class="testimonials--description">
+                These guys do amazing work here. They made my
+                car awesome.
+            </div>
+            <div class="testimonials--name">
+                John Brown
+            </div>
+            <div class="testimonials--name testimonials--name__subname">
+                Chevrolet Camaro
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer full-width">
+    <div class="footer--container">
+        <div class="footer--logo">
+        </div>
+        <div class="footer--copy">
+            © 2016. Visos teisės saugomos | e-solution: <a class="footer--link" href="#">Charger</a>
+        </div>
     </div>
 </div>
 

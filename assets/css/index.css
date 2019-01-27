@@ -524,7 +524,7 @@ html, body {
   height: 900px;
   background-color: #000000;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   position: relative; }
   .testimonials::after {
@@ -545,3 +545,64 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: center; }
+  .testimonials--block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .testimonials--description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    max-height: 140px;
+    font-size: 36px;
+    letter-spacing: 2.5px;
+    line-height: 48px;
+    text-align: center;
+    position: relative; }
+    .testimonials--description::after {
+      position: absolute;
+      display: block;
+      content: "";
+      border: 1px solid #e3a062;
+      width: 150px;
+      top: 125px; }
+  .testimonials--name {
+    font-size: 30px;
+    letter-spacing: 2.5px;
+    color: #ffffff;
+    padding-top: 70px; }
+    .testimonials--name__subname {
+      font-size: 16px;
+      padding-top: 10px; }
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #000000; }
+  .footer--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    padding: 15px 0;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .footer--logo {
+    width: 160px;
+    height: 90px;
+    background-image: url("../../assets/img/logo.png");
+    background-position: center;
+    background-repeat: no-repeat; }
+  .footer--copy {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #afa9a3;
+    transition: 0.3s all ease-in; }
+  .footer--link {
+    text-decoration: none;
+    color: #f7f3ec; }
